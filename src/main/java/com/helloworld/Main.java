@@ -1,13 +1,16 @@
 package com.helloworld;
 
-public class Main {
+import java.io.IOException;
 
-    public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) throws IOException {
         // write your code here
-        for (String i:args
-             ) {
+        for (String i:args)
+        {
             System.out.println(i);
         }
+        Version ver = new Version();
+        System.out.println("Версия программы: " + ver.version + "!");
         System.out.println("Hello world! test merge" + "THIS IS A NEW CONTENT IN MATER BRANCH");
         System.out.println("master branch");
         System.out.println("тест");
