@@ -15,3 +15,5 @@
 7. [Как подключать библиотеки через Maven](https://habr.com/post/311108/)
 
 8. [Плагин для добавления зависимостей в исполняемый jar](https://maven.apache.org/plugins/maven-shade-plugin/usage.html)
+
+9. [Профили в Maven](http://www.apache-maven.ru/profiles.html)
